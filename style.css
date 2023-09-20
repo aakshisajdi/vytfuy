@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #040D12;
+    color: white;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 70px;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: -150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Fuggles', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.navbar a {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+.over-port {
+    background-image: url(4k-Tokyo-Revengers-Wallpaper.jpg);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+
+.brotherhood {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 32px;
+    font-weight: bold;
+ }   
+
+ .about-us {
+    background-color: #272829;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.image {
+    top: 400px;
+    position: relative;
+    margin-top: -400px;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+button:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+
